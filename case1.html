@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JS</title>
+</head>
+<body>
+    <h5>Case 1</h5>
+    <p>Buatlah algoritma untuk menampilkan pengkuadratan dan pembagian angka tertentu. input angka melalui prompt dan tampilkan di console</p>
+    <script>
+            const x = prompt("Input angka 1: ");
+            const y = prompt("Input angka 2: ");
+            window.alert("Bilangan kuadrat dari angka 1: " + x ** 2);
+            console.log(x ** 2);
+            window.alert("Pembagian antara angka 1 dan angka 2: "+ x / y);
+            console.log(x / y);
+    </script>
+    <h5>Case 3</h5>
+    <p>Tampilkanlah tanggal bulan dan tahun hari ini, besok dan kemarin</p>
+    <script>
+            const tanggal = new Date();
+            console.log(tanggal.toDateString());
+
+            const kemarin = new Date(tanggal);
+            kemarin.setDate(kemarin.getDate() - 1);
+            console.log(kemarin.toDateString());
+
+            const besok = new Date(tanggal);
+            besok.setDate(besok.getDate() + 1);
+            console.log(besok.toDateString());
+    </script>
+    <h5>Case 5</h5>
+    <p>Buatlah algoritma untuk menghitung jumlah karakter tertentu dalam string</p>
+    <script>
+        const kata = prompt("Input kata: ");
+        window.alert("Jumlah karakter ada: " + kata.length);
+        console.log(kata.length);
+    </script>
+</body>
+</html>
