@@ -15,3 +15,18 @@ console.log(b.toLowerCase());
 console.log(a.replace('pa','mi'));
 console.log(a.replace(/pa/g, 'mi'));
 console.log(typeof(c.toString()));
+
+var usiaAyah = 60;
+var usiaBunda = 45;
+
+console.log(usiaAyah * usiaBunda);
+console.log(usiaAyah / usiaBunda);
+console.log(usiaAyah + usiaBunda);
+console.log(usiaAyah - usiaBunda);
+console.log(usiaAyah % usiaBunda);
+
+console.log(Math.PI);
+console.log(Math.abs(-4.7));
+console.log(Math.pow(8,2));
+console.log(Math.sqrt(64));
+console.log(Math.cbrt(8));
