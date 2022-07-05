@@ -30,3 +30,11 @@ console.log(Math.abs(-4.7));
 console.log(Math.pow(8,2));
 console.log(Math.sqrt(64));
 console.log(Math.cbrt(8));
+
+let time = new Date();
+console.log(time.getFullYear());
+console.log(time.getMonth());
+console.log(time.getDate());
+console.log(time.getDay());
+console.log(time.getHours());
+console.log(time.getMinutes());
