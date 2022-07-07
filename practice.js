@@ -40,3 +40,20 @@ if (Condition1 && Condition2) {
 } else {
     console.log(number);
 }
+
+// switch case
+
+const job = "teacher";
+
+switch (job) {
+    case "teacher" :
+        console.log("teach");
+        break;
+    case "doctor" :
+        console.log("cure");
+    case "programmer" :
+        console.log("code");
+    default:
+        console.log("others")
+        break;
+}
