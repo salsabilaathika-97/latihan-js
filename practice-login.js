@@ -18,3 +18,19 @@ function fizzbuzz(param){
 }
 
 console.log(fizzbuzz(20)); //mencetak hasil
+
+//Soal Logic Palindrome String
+
+function palindrome(param){
+   let char = param.split("");
+   let invertChar = char.reverse();
+
+   if (char === invertChar) {
+    return true
+   } else {
+    return false
+   }
+
+}
+
+console.log(palindrome(`kasur rusak`));
