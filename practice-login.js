@@ -34,3 +34,26 @@ function palindrome(param){
 }
 
 console.log(palindrome(`kasur rusak`));
+
+//Soal Logic Factorial
+
+function Factorial(param){
+
+    let result = 1; 
+
+    for(let i=1; i <= param; i++){
+        result *= i;
+    }
+
+    return result;
+}
+
+function FactorialRecursive(param){
+    if(param < 0){
+        return `Undefined`;
+    } return param <=1 ? 1 : param * FactorialRecursive(param - 1);
+}
+
+console.log(Factorial(5));
+console.log(FactorialRecursive(-1));
+console.log(FactorialRecursive(5));
